@@ -10,15 +10,12 @@
 
 @implementation VZSAppDelegate
 
-@synthesize statusMenu = _statusMenu;
-@synthesize statusItem = _statusItem;
-
 - (void)awakeFromNib
 {
-    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-    self.statusItem.menu = self.statusMenu;
-    self.statusItem.title = @"Stateful";
-    self.statusItem.highlightMode = YES;
+    statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [statusItem setMenu:statusMenu];
+    [statusItem setTitle:@"Stateful" ];
+    [statusItem setHighlightMode:YES];
     
     NSLog(@"Status bar in place.");
 }

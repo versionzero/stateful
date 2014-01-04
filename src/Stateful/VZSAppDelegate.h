@@ -9,8 +9,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface VZSAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSMenu *statusMenu;
-@property (strong, nonatomic) NSStatusItem *statusItem;
+{
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem *statusItem;
+}
 
 @end
