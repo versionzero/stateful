@@ -1,4 +1,9 @@
 
+# Helpful
+
+*  http://stackoverflow.com/questions/8544853/how-to-make-an-menu-bar-system-tray-app-for-osx-in-python
+*  https://github.com/jaredks/rumps
+  
 # References
 
 1. [Kessler, Topher](http://www.cnet.com/profile/tkessler/),
